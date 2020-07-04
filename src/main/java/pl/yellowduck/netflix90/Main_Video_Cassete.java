@@ -8,7 +8,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-public class Main2 {
+public class Main_Video_Cassete {
 
     public static void main(String[] args) {
 
@@ -19,7 +19,7 @@ public class Main2 {
         Director tommyFe = new Director("Tommy", "Wiseau", Gender.FEMALE);
 
         List<Person> persons = new ArrayList<>();
-        Set<Actor> actors = new HashSet<>();
+//        Set<Actor> actors = new HashSet<>();
         persons.add(tommy);
         persons.add(tommyFe);
         persons.add(tommyActor);
@@ -29,11 +29,13 @@ public class Main2 {
 
         VideoCassete theRoom = new VideoCassete(
                 "VID001",
-                BigDecimal.valueOf(28),
+                BigDecimal.valueOf(20),
                 "The Room",
                 tommy,
                 Category.DRAMA,
                 Set.of(tommyActor, greg, juliette));
+
+        theRoom.printOut();
 
 //    for (Person person: persons){
 //      person.introduce();

@@ -4,7 +4,7 @@ import pl.yellowduck.netflix90.resouces.Category;
 
 import static pl.yellowduck.netflix90.resouces.Category.*;
 
-public class Main3 {
+public class Main_Category {
     public static void main(String[] args) {
 
         Category category = Category.DRAMA;

@@ -8,6 +8,11 @@ public class Actor extends Person {
 //        super(firstName, lastName.endsWith("i") ? Gender.MALE : Gender.FEMALE);
     }
 
+    @Override
+    public String toString() {
+        return  firstName + " "  + lastName;
+    }
+
     public void introduce() {
         if (Gender.MALE.equals(gender)) {
             System.out.println("my name is " + firstName + " " + lastName + ", im a actor!");

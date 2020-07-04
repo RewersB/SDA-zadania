@@ -8,7 +8,7 @@ import pl.yellowduck.netflix90.resouces.Person;
 import java.util.HashSet;
 import java.util.Set;
 
-public class Main {
+public class Main_Person {
 
   public static void main(String[] args) {
     System.out.println("Hello Netflix90");

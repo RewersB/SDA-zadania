@@ -6,13 +6,18 @@ public class Director extends Person {
         super(firstName, lastName, gender);
     }
 
+    @Override
+    public String toString() {
+        return firstName + " " + lastName;
+    }
+
     public void introduce() {
-        switch (this.gender){
+        switch (this.gender) {
             case MALE:
-                System.out.println("my name is " + firstName + " " + lastName + ", im a director!");
+                System.out.println("my name is " + toString() + ", im a director!");
                 break;
             case FEMALE:
-                System.out.println("my name is " + firstName + " " + lastName + ", im a director(s)!");
+                System.out.println("my name is " + toString() + ", im a director(s)!");
                 break;
         }
 
