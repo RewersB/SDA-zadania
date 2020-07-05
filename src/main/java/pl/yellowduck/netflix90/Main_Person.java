@@ -17,6 +17,7 @@ public class Main_Person {
     Actor juliette = new Actor("Juliette", "Danielle", Gender.FEMALE);
     Director tommy = new Director("Tommy", "Wiseau", Gender.MALE);
     Director tommyFe = new Director("Tommy", "Wiseau", Gender.FEMALE);
+    greg.getFirstName();
 
     Set<Person> persons = new HashSet<>();
     persons.add(tommy);

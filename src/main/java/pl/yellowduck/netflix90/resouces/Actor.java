@@ -1,5 +1,9 @@
 package pl.yellowduck.netflix90.resouces;
 
+
+import lombok.Getter;
+
+@Getter
 public class Actor extends Person {
 
 

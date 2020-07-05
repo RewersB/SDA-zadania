@@ -1,6 +1,8 @@
 package pl.yellowduck.netflix90.resouces;
 
+import lombok.Getter;
 
+@Getter
 public abstract class Person {
 
     protected String firstName;
